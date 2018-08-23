@@ -2,7 +2,9 @@
 
 Accordion native [web component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) built with vanilla js, es6, sass
 
-Check demo [ https://giodelabarrera.github.io/accordion-web-component]( https://giodelabarrera.github.io/accordion-web-component)
+Check demo [ https://giodelabarrera.github.io/accordion-web-component]( https://giodelabarrera.github.io/accordion-web-component). 
+
+> **Supports:** Some versions of web browsers do not support web components. Use the chrome on the computer to get more compatibility.
 
 ## Frontend Exercise
 
