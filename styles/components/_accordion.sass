@@ -1,22 +1,30 @@
 
+\:root
+  --Accordion-title-backgroundColor: #f7f7f7
+  --Accordion-title-borderColor: #d8d8d8
+  --Accordion-title-color: #646464
+  --Accordion-content-backgroundColor: #ffffff
+  --Accordion-content-borderColor: #d8d8d8
+  --Accordion-content-color: #495057
+
 .Accordion
 
   &-title
-    background-color: rgb(247, 247, 247)
+    background-color: var(--Accordion-title-backgroundColor)
     border-width: 1px
-    border-color: rgb(216, 216, 216)
+    border-color: var(--Accordion-title-borderColor)
     border-style: solid
-    color: #646464
+    color: var(--Accordion-title-color)
     cursor: pointer
     padding: 15px
     font-weight: bold
 
   &-content
-    background-color: #ffffff
+    background-color: var(--Accordion-content-backgroundColor)
     border-width: 1px
-    border-color: rgb(216, 216, 216)
+    border-color: var(--Accordion-content-borderColor)
     border-style: solid
-    color: #495057
+    color: var(--Accordion-content-color)
     transition-property: height, padding
     transition-duration: .35s
     transition-timing-function: ease
