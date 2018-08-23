@@ -13,7 +13,7 @@ function createSpinner() {
   const spinnerIcon = document.createElement('span')
   spinnerIcon.classList.add('Spinner-icon')
 
-  spinner.append(spinnerIcon)
+  spinner.appendChild(spinnerIcon)
 
   return spinner
 }
@@ -24,7 +24,7 @@ ddLastElem.addEventListener('expand', function (e) {
 
   const spinner = createSpinner()
 
-  this.append(spinner)
+  this.appendChild(spinner)
 
   fetch('https://randomuser.me/api/?lego')
     .then(res => res.json())
@@ -36,7 +36,7 @@ ddLastElem.addEventListener('expand', function (e) {
       image.setAttribute('src', urlImage)
       image.setAttribute('width', 200)
 
-      this.append(image)
+      this.appendChild(image)
 
       spinner.remove()
     })
