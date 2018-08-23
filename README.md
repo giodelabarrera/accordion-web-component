@@ -2,7 +2,7 @@
 
 Accordion native [web component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) built with vanilla js, es6, sass
 
-Check demo [url](url)
+Check demo [ https://giodelabarrera.github.io/accordion-web-component]( https://giodelabarrera.github.io/accordion-web-component)
 
 ## Frontend Exercise
 
