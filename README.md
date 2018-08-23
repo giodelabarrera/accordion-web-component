@@ -1,6 +1,6 @@
 # Accordion Web Component
 
-Accordion native web component built with vanilla js, es6, sass
+Accordion native [web component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) built with vanilla js, es6, sass
 
 Check demo [url](url)
 
