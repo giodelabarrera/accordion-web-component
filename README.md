@@ -4,7 +4,8 @@ Accordion native [web component](https://developer.mozilla.org/en-US/docs/Web/We
 
 Check demo [ https://giodelabarrera.github.io/accordion-web-component]( https://giodelabarrera.github.io/accordion-web-component). 
 
-> **Supports:** Some versions of web browsers do not support web components. Use the chrome on the computer to get more compatibility.
+> **Web component support:** Some versions of web browsers do not support web components. The browsers in which this component has been supported have been Chrome, Opera, Brave. I wanted to do this project with web components for my experimentation of its use.
+[More info](https://developer.mozilla.org/en-US/docs/Web/Web_Components#Browser_support)
 
 ## Frontend Exercise
 

@@ -54,4 +54,4 @@ class Accordion extends HTMLDListElement {
   }
 }
 
-customElements.define('accordion-dl', Accordion, { extends: 'dl' })
+window.customElements.define('accordion-dl', Accordion, { extends: 'dl' })
