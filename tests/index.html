@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Accordion</title>
+  <link rel="stylesheet" href="../styles/style.css">
+  <script defer src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.0/webcomponents-bundle.js"></script>
+  <script defer src="../scripts/components/accordion.js"></script>
+  <script defer src="assert.js"></script>
+  <script defer src="index.test.js"></script>
+</head>
+
+<body>
+
+  <template>
+    <dl is="accordion-dl">
+      <dt>Section 1</dt>
+      <dd>
+        <p>Section 1 Content...</p>
+      </dd>
+      <dt>Section 2</dt>
+      <dd>
+        <p>Section 2 Content...</p>
+      </dd>
+      <dt>Section 3</dt>
+      <dd>
+        <p>Section 3 Content...</p>
+      </dd>
+      <dt>Section 4</dt>
+      <dd>
+        <p>Section 4 Content...</p>
+      </dd>
+    </dl>
+  </template>
+
+  <small>See console to get the results</small>
+
+</body>
+
+</html>
